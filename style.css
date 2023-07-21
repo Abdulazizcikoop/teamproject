@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.speciality{
+    width: 567px;
+    background-color: red;
+    text-align: center;
+    padding: 78px;
+    font-family: sans-serif;
+}
+
+.speciality > h2{
+
+}
+
+.speciality_items{
+    max-width: 1296px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 148px);
+    gap: 24px;
+}
+
+.item{
+    background-color: green;
+    border-radius: 111px;
+}
